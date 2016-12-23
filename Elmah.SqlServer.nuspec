@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+    <id>elmah.sqlserver</id>
+    <version>2.0.0-alpha001</version>
+    <title>Microsoft SQL Server Error Log for ELMAH</title>
+    <authors>Atif Aziz</authors>
+    <owners>Atif Aziz, James Driscoll</owners>
+    <licenseUrl>http://www.apache.org/licenses/LICENSE-2.0</licenseUrl>
+    <projectUrl>https://github.com/elmah/SqlErrorLog</projectUrl>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>ELMAH error log implementation on top of Microsoft SQL Server (2000 or later) as the database.</description>
+    <language>en-US</language>
+    <tags>mssql elmah error logging unhandled exception</tags>
+    <dependencies>
+      <dependency id="elmah.corelibrary" version="2.0.0-alpha001" />
+    </dependencies>
+  </metadata>
+  <files>
+    <file src="bin\net-3.5\Release\Elmah.SqlServer.*" target="lib\net35" />
+    <file src="bin\net-4.0\Release\Elmah.SqlServer.*" target="lib\net40" />
+    <file src="bin\net-4.5\Release\Elmah.SqlServer.*" target="lib\net45" />
+    <file src="COPYING.txt" />
+    <file src="src\readme.txt" target="" />
+    <file src="src\SQLServer.sql" target="" />
+    <file src="src\*.cs" target="src" />
+  </files>
+</package>
