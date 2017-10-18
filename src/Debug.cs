@@ -44,12 +44,5 @@ namespace Elmah
         {
             SysDebug.Assert(condition);
         }
-
-        [ Conditional("DEBUG"), DebuggerStepThrough ]
-        public static void AssertStringNotEmpty(string s)
-        {
-            Assert(s != null);
-            Assert(s.Length != 0);
-        }
     }
 }
