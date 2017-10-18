@@ -2,7 +2,7 @@
 <package xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
   <metadata xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
     <id>elmah.sqlserver</id>
-    <version>2.0.0-alpha001</version>
+    <version>2.0.0$VersionSuffix$</version>
     <title>Microsoft SQL Server Error Log for ELMAH</title>
     <authors>Atif Aziz</authors>
     <owners>Atif Aziz, James Driscoll</owners>
