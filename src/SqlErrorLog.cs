@@ -38,6 +38,7 @@ namespace Elmah
     using System.Xml;
 
     using IDictionary = System.Collections.IDictionary;
+    using Debug = System.Diagnostics.Debug;
 
     #endregion
 

@@ -131,9 +131,7 @@
     <Compile Include="AssemblyInfo.cs" />
     <Compile Include="Build.cs" />
     <Compile Include="ConnectionStringHelper.cs" />
-    <Compile Include="Debug.cs" />
     <Compile Include="DictionaryExtensions.cs" />
-    <Compile Include="JetBrains.Annotations.cs" />
     <Compile Include="SqlErrorLog.cs" />
   </ItemGroup>
   <ItemGroup>

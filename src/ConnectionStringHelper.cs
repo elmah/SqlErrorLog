@@ -43,9 +43,9 @@ namespace Elmah
 
         public static string GetConnectionString(IDictionary config)
         {
-            Debug.Assert(config != null);
+          System.Diagnostics.Debug.Assert(config != null);
 
-            //
+          //
             // First look for a connection string name that can be 
             // subsequently indexed into the <connectionStrings> section of 
             // the configuration to get the actual connection string.
