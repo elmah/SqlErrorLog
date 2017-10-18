@@ -1,12 +1,13 @@
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 14
-VisualStudioVersion = 14.0.25420.1
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B44EF77F-33EB-40B9-BF2A-83E6B5CE7EAF}"
 	ProjectSection(SolutionItems) = preProject
 		build.cmd = build.cmd
 		COPYING.txt = COPYING.txt
 		Elmah.SqlServer.nuspec = Elmah.SqlServer.nuspec
+		msbuild.cmd = msbuild.cmd
 		pack.cmd = pack.cmd
 		README.md = README.md
 	EndProjectSection
@@ -38,5 +39,8 @@ Global
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A606CD26-3A2D-4A4C-AE99-D16870F023D2}
 	EndGlobalSection
 EndGlobal
