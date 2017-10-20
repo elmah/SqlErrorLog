@@ -4,6 +4,7 @@ VisualStudioVersion = 15.0.27004.2002
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B44EF77F-33EB-40B9-BF2A-83E6B5CE7EAF}"
 	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
 		build.cmd = build.cmd
 		COPYING.txt = COPYING.txt
 		Elmah.SqlServer.nuspec = Elmah.SqlServer.nuspec
