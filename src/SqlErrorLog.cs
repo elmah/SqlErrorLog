@@ -15,7 +15,7 @@
 //
 #endregion
 
-namespace Elmah
+namespace Elmah.SqlServer
 {
     #region Imports
 
